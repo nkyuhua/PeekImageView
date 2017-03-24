@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/pop_tv_bg"
+        android:padding="10dp"
+        android:text="拍照"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/tv_local"
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/pop_tv_bg"
+        android:padding="10dp"
+        android:text="本地"
+        android:textAlignment="center"/>
+
+</LinearLayout>
